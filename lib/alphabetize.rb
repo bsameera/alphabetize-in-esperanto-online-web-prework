@@ -2,8 +2,8 @@ def alphabetize(arr)
   # code here
   new_arr = arr.map do |word|
     #if word.include?('ĉ')
-      word = word.gsub!('ĉ', 'cx')
-      word
+      word.gsub!('ĉ', 'cx')
+  
     #end 
   end 
   result = new_arr.sort
