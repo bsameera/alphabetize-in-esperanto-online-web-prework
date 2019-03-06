@@ -1,9 +1,9 @@
 def alphabetize(arr)
   # code here
   new_arr = arr.map do |word|
-    if word.include?('ĉ')
-      return word.gsub!('ĉ', 'cx')
-    end 
+    #if word.include?('ĉ')
+      word = word.gsub!('ĉ', 'cx')
+    #end 
   end 
   result = new_arr.sort
   final_result = result.map do |word|
