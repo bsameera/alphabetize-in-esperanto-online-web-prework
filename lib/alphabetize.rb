@@ -3,7 +3,7 @@ def alphabetize(arr)
   new_arr = arr.map { |word|
     word.include?('ĉ') ? word.gsub!('ĉ', 'cx') : word
     word.include?('ĝ') ? word.gsub!('ĝ', 'gx') : word
-    ĥ 
+    ĥ ĵ 
   } 
   result = new_arr.sort
   final_result = result.map { |word|
