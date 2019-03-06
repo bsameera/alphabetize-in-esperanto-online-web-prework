@@ -1,6 +1,6 @@
 def alphabetize(arr)
   # code here
-  new_arr = arr.map do |word|
+  new_arr = arr.map { |word|
     res = word.include?('ĉ') ? word.gsub!('ĉ', 'cx') : word
   
     #end 
